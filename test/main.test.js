@@ -35,7 +35,7 @@ part('Table', () => {
     eq(str, `++${'\n||'.repeat(n * 4 + 3)}\n++`);
   });
 
-  test('10 rows, 15 columns', () => {
+  test('10 columns, 15 rows', () => {
     const w = 10;
     const h = 15;
     const table = new Table(O.ca(w, i => `Column ${i + 1}`));
