@@ -18,7 +18,7 @@
     "omikron": "^1.2.5"
   },
   "devDependencies": {
-    "@hakerh400/jstest": "^1.1.1"
+    "@hakerh400/jstest": "^1.1.2"
   },
   "engines": {
     "node": ">=13"

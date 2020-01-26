@@ -116,6 +116,11 @@ class Table{
       if(flag) str += c1;
     });
 
+    str = O.sanl(str).map(line => {
+      if(line === '|') return '||';
+      return line;
+    }).join('\n');
+
     return str;
   }
 }
