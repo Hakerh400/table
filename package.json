@@ -1,0 +1,27 @@
+{
+  "name": "@hakerh400/table",
+  "description": "ASCII-art table visualizer",
+  "version": "1.0.0",
+  "author": "Thomas <hakerh403@gmail.com>",
+  "main": "index.js",
+  "contributors": [],
+  "keywords": [
+    "table",
+    "ASCII-art"
+  ],
+  "homepage": "https://github.com/Hakerh400/table",
+  "repository": "git://github.com/Hakerh400/table.git",
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {
+    "omikron": "^1.2.5"
+  },
+  "devDependencies": {
+    "@hakerh400/jstest": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=13"
+  },
+  "license": "Unlicense"
+}
